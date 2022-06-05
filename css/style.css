@@ -9,7 +9,7 @@
 
 body {
   transition: 0.3s;
-  background: rgba(0, 0, 0, 0);
+  background-color:hsl(0, 0%, 98%);
 }
 
 body.opened-menu {
@@ -221,6 +221,10 @@ section {
     position: fixed;
   }
 
+  .attribution {
+    display: none;
+  }
+
   .navbar-mobile {
     display: block;
     justify-content: space-between;
@@ -408,6 +412,7 @@ section {
 
 /* Attribution */
 .attribution {
+  margin-top: 80px;
   font-size: 12px;
   text-align: center;
 }
